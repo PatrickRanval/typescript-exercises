@@ -11,14 +11,9 @@ var Student = /** @class */ (function () {
     };
     ;
     Student.prototype.isPassing = function () {
-        if (this.studentGrade >= 62) {
-            return true;
-        }
-        else {
-            return false;
-        }
-        ;
+        return this.studentGrade >= 62;
     };
+    ;
     return Student;
 }());
 ;

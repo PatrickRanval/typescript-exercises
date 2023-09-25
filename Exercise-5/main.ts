@@ -12,11 +12,9 @@ class Student {
      };
 
      isPassing():boolean {
-          if (this.studentGrade >= 62) {
-               return true; 
-          } else { return false;                        
+          return this.studentGrade >= 62                        
           };
-     }
+     
 };
 
 const tim = new Student('Timothy', 15, 54);
